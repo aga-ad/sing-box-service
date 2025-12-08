@@ -29,4 +29,11 @@ go.work.sum
 
 # Editor/IDE
 # .idea/
-# .vscode/
+.vscode/
+
+#sing-box config
+config.json
+
+#sing-box log
+box.log
+
