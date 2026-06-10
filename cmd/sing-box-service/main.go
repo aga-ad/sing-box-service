@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 	"os/signal"
-	"sing-box-service/pkg/service"
-	"sing-box-service/pkg/singbox"
+	"sing-box-service/internal/service"
+	"sing-box-service/internal/singbox"
 	"syscall"
 )
 

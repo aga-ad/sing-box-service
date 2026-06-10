@@ -32,7 +32,7 @@ go.work.sum
 .vscode/
 
 #sing-box config
-config.json
+*.json
 
 #sing-box log
 box.log

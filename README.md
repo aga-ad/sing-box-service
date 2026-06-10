@@ -1,8 +1,8 @@
 # sing-box-service
-Windows Service wrapper for [sing-box v1.12.12](https://github.com/SagerNet/sing-box).
+Windows Service wrapper for [sing-box-extended v1.13.12-extended-2.4.1](https://github.com/shtorm-7/sing-box-extended/).
 
 ## Build
-You need Go version 1.25.3 or later.
+You need Go version 1.26.4 or later.
 
 Just run ```make``` or ```go build``` command from Makefile.
 
@@ -21,10 +21,11 @@ sc create "sing-box-service" binpath= "C:\path\to\singboxdir\sing-box-service.ex
 net start sing-box-service
 ```
 
-
+## Links
+You can use https://eikeidev.github.io/vless-xtls-converter/ for converting url-encoded config from your VPN provider to outbounds config.
 
 ## Disclaimer
-This project is an independent work based on the [sing-box](https://github.com/SagerNet/sing-box), 
+This project is an independent work based on the [sing-box-extended](https://github.com/shtorm-7/sing-box-extended/) and on the [sing-box](https://github.com/SagerNet/sing-box), 
 which is licensed under the GNU GPLv3.  
-The authors of the original project are not affiliated with, do not endorse, 
+The authors of the original projects are not affiliated with, do not endorse, 
 and are not responsible for this project.
